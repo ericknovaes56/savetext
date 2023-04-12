@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #131313;
+}
+main{
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+main .top {
+    display: flex;
+    gap: 10px;
+}
+main .top input{
+    width: 100%;
+    height: 55px;
+    border-radius: 999px;
+    padding: 0 20px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid rgb(255, 249, 249);
+    color: white;
+    font-weight: bold;
+}
+main .top .button{
+    max-width: 310px;
+    border: none;
+    background-color: #252525;
+    cursor: pointer;
+}
+.text{
+    width: 100%;
+    height: 55px;
+    border-radius: 999px;
+    padding: 18px 30px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid rgb(255, 249, 249);
+    color: white;
+    box-sizing: border-box;
+    font-weight: bold;
+    resize: none
+}
+.text::-webkit-scrollbar{
+    display: none;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.contents::-webkit-scrollbar{
+    display: none;
+}
+.contents pre{
+    background-color: #252525;
+    border-radius: 20px;
+    white-space: pre-wrap;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 16px;
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 1em;
+    color: #ffffff;
+    align-items: start;
+    justify-content: start;
+}
+.num{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 1em;
+}
